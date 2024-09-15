@@ -66,8 +66,9 @@ direction: rtl;
 .flaters ul li a,span{
    
     color: #fff;
-    padding: 10px 20px;
+    padding: 20px 30px;
     background-color: #060;
+    border-radius: 10px;
     cursor: pointer;
     text-decoration: none;
 }
