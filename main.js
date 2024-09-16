@@ -19,7 +19,8 @@ const ctx = canvas.getContext('2d');
 
 function restValue(){
     img.style.filter="none"
-    ctx.filter ='none'
+    ctx.filter = 'none'
+    ctx.drawImage(img,0,0,canvas.width,canvas.height);
     saturate.value="100"
     contrast.value="100"
     brightness.value="100"
