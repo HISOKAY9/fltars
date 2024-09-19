@@ -91,7 +91,7 @@ upload.onchange = function(){
 
  download.onclick = function(){
   
-    download.href = canvas.toDataURL();
+    download.href = canvas.toDataURL('image/png');
 
 
 
